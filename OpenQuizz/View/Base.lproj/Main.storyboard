@@ -60,6 +60,10 @@
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.74871879819999998" green="0.76883822680000002" blue="0.78676408529999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <outlet property="icon" destination="m44-AI-Woa" id="6e2-Ig-Hgu"/>
+                                    <outlet property="label" destination="XPU-Ks-WCE" id="tGz-zj-3ZH"/>
+                                </connections>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.3424746394" green="0.41935455799999999" blue="0.50887805220000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
