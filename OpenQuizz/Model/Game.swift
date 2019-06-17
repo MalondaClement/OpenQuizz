@@ -29,7 +29,7 @@ class Game {
 			self.questions = questions
 			self.state = .ongoing
 			
-			let name = Notification.Name(rawValue: "QustionsLoaded")
+			let name = Notification.Name(rawValue: "QuestionsLoaded")
 			let notification = Notification(name: name)
 			NotificationCenter.default.post(notification)
 			
